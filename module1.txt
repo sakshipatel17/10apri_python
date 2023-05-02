@@ -1,0 +1,22 @@
+Python Assignment 
+ 
+Module – 1 (SDLC) 
+
+1)What is Software? 
+Ans:Software is a set of instructions, data or programs used to operate computers and execute specific tasks. It is the opposite of hardware, which describes the physical aspects of a computer. Software is a generic term used to refer to applications, scripts and programs that run on a device. 
+
+2)What are the types of Applications? 
+Ans:Web Development
+    Game Development
+    Machine learning and artificial intelligency
+    Data science and data visulization
+    Desktop GUI
+    Web Scraping Applications
+    Buisness Application
+    Audio and video application.
+
+3)what is programing? 
+Ans:python is a computer programming language often used to build websites and software , automate tasks, and conduct data analysis.
+
+4)What is Python?  
+Ans:Python is high-level ,object-oriented an interpreted programming language 
