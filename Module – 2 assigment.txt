@@ -1,0 +1,16 @@
+Module – 2 (Assigement):-
+--------------------------
+ 
+ 
+4)How memory is managed in Python?
+Ans:- Python uses a combination of reference counting and garbage collection to manage memory. The Python memory manager allocates and frees memory for objects created during program execution. Reference counting keeps track of the number of references to an object, and garbage collection removes objects with zero references. The garbage collector can detect and remove circular references. The programmer does not need to manage memory manually.
+ 
+5)What is the purpose continue statement in python? 
+Ans:-In Python, the `continue` statement is used within loops to skip the remaining statements in the current iteration of the loop and move on to the next iteration. The purpose of `continue` is to provide a way to selectively skip certain iterations of a loop based on a condition, without exiting the loop entirely. This can be useful for filtering or transforming data within a loop, or for implementing certain types of control flow logic. When `continue` is encountered, the program jumps back to the beginning of the loop and starts the next iteration without executing any of the statements below the `continue` statement in the current iteration.
+ 
+
+14)What are negative indexes and why are they used?  
+Ans:-Negative indexes in Python are used to access elements of a sequence (such as a string or a list) relative to its end, rather than its beginning. They are useful in situations where you need to access the last element of a sequence or elements in reverse order.
+
+
+
