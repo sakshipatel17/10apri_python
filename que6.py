@@ -1,11 +1,11 @@
-a = 5
-b = 10
+str = ["sakshi","patel","dhruv","charmi"]
 
-# swapping using a temporary variable
-temp = a
-a = b
-b = temp
 
-print("After swapping:")
-print("a =", a)
-print("b =", b)
+count = 0
+for string in str:
+ if len(str) >= 2 and str[0] == str[-1]:
+        count += 1
+        
+
+print(str)
+

@@ -1,7 +1,7 @@
-a = int(input("Enter the first integer: "))
-b = int(input("Enter the second integer: "))
+number = list(range(1, 31))
 
-if a == b or abs(a - b) == 5 or a + b == 5:
-    print(True)
-else:
-    print(False)
+#print first 5 elements
+print("First 5 elements:", number[:5])
+
+#print last five elemenets 
+print("Last 5 elements:", number[-5:])

@@ -1,9 +1,7 @@
-a = int(input("Enter the first integer: "))
-b = int(input("Enter the second integer: "))
-c = int(input("Enter the third integer: "))
+my_list=["pani","puri","pav-bhaji"]
+list =["pani","sandwich"]
 
-if a == b or b == c or c == a:
-    print("Sum is zero")
+if my_list == list:
+    print("list is done")
 else:
-    sum = a + b + c
-    print("Sum of the three integers is:", sum)
+    print("list is not done")    

@@ -1,12 +1,9 @@
-str1=input("enter the first string:-")
+# Write a Python program to check whether a list contains a sub list
+list=[10,20,30,40,50,60]
+l2=[10,20,30]
 
-str2=input("enter the second string:")
-
-x=str1[0:2]
-
-str1=str1.replace(str1[0:2],str2[0:2])
-str2=str2.replace(str2[0:2],x)
-
-print("first string has become",str1)
-
-print("second string has become",str2)
+if all(elem in list for elem in l2):
+    print("list is true")
+else:
+    print("list is false")    
+    

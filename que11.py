@@ -1,5 +1,5 @@
-n = int(input("Enter the value of n: "))
-sum = 0
-for i in range(1, n+1):
-    sum += i
-print("The sum of the first", n, "positive integers is:", sum)
+my_list = [1, 2, 3, 3, 4, 4, 5, 6, 6, 7]
+
+unique_list = list(my_list)
+
+print(unique_list)

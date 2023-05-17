@@ -1,6 +1,6 @@
-letter = input("Enter a letter: ")
+my_list = []
 
-if letter in ['a', 'e', 'i', 'o', 'u']:
-    print(letter, "is a vowel")
+if my_list==[]:
+    print("The list is empty")
 else:
-    print(letter, "is not a vowel")
+    print("The list is not empty")

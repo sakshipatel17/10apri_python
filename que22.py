@@ -1,9 +1,7 @@
-string = "patelsakshi"
-string1=input("enter a string")
+my_tuple = (1, 2, 3, 4, 5)
+element = 5
 
-if len(string1) < 2:
-    result = " "
+if element in my_tuple:
+    print("Element exists in the tuple")
 else:
-    result = string[:2] + string[-2:]
-
-print("The result is:", result)
+    print("Element does not exist in the tuple")

@@ -1,3 +1,5 @@
-mystr="welecome to python "
+#Write a Python program to select an item randomly from a list.  
+import random
+item_list=["pizza","pav-bhaji","burger","pani-puri"]
 
-print("the occurence of each word in sentence is :",mystr.count('python'))
+print(random.choice(item_list))

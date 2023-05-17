@@ -1,7 +1,7 @@
-string = input("Enter a string: ")
+char_list = ['H', 'e', 'l', 'l', 'o', ',', ' ', 'W', 'o', 'r', 'l', 'd', '!']
+string = ' '
+for char in char_list:
+    string += char
+print(string)
+ 
 
-length = 0
-for char in string:
-    length += 1
-
-print("The length of the string is:", length)

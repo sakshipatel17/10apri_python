@@ -1,3 +1,3 @@
-string = "sakshi patel"
-new_str=input("enter a new string:")
-print(string[0:6]+" "+new_str,string[7:12])
+#Write a Python program to find the length of a tuple.
+mytup=[1,2,3,4,5,6,7]
+print(len(mytup))

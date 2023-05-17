@@ -1,8 +1,3 @@
-words = input("Enter a list of words separated by space: ").split()
-
-max_len = 0
-for word in words:
-    if len(word) > max_len:
-        max_len = len(word)
-
-print("The length of the longest word is:", max_len)
+#Write a Python program to create a tuple with numbers.
+mytup=[1,2,3,4,5,6,7,8,9]
+print(mytup)
